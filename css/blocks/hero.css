@@ -1,0 +1,65 @@
+.wrapper--main {
+    background: url('../../img/hero.png') center top no-repeat, url('../../img/botton.png') center bottom no-repeat;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.menu__list {
+    display: flex;
+    font-size: 14px;
+}
+
+.menu__item {
+    margin-right: 54px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link:hover {
+    color: #FF3D00;
+}
+
+.contacts {
+    font-style: normal;  
+    text-align: right;
+}
+
+.contacts__phone {
+    font-size: 26px;
+}
+
+.contacts__hours {
+    font-size: 13px;
+    color: #FF3D00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero__content {
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 250px;
+}
+
+.hero__title{
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 57px;
+
+}
+
+
+
