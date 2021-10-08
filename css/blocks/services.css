@@ -16,7 +16,7 @@ li.services__item {
     padding: 22px; 
 }
 
-.services__img{
+.services__img {
     padding: 36px 0 30px;
 }
 
@@ -38,22 +38,31 @@ h3.services__title {
 
 .services__description {
     font-size:  14px;
-    margin-bottom: 29px;
+    margin-bottom: 45px;
 }
 
 .services__link button {
     color: #000;
 }
 
+<!-- dfsdfsdf-->
 
+
+/* services page */
 
 .top-line {
-min-height: 416px;  
-background: #666666; 
+    background: url('../../img/top-line.jpeg') no-repeat;
+    background-size: cover;
+}
+
+.top-line {
+min-height: 413px;  
+/*background: #666666;*/
 display: flex;
 flex-direction: column;
-padding-bottom: 28px;
-background: url("../../img/top-line.png") right 1% top no-repeat;
+padding-bottom: 25px;
+background: url('../../img/top-line.jpeg') no-repeat;
+background-size: cover;
 }
 
 .top-line__container {
@@ -61,24 +70,35 @@ background: url("../../img/top-line.png") right 1% top no-repeat;
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
+    /*background: url("../../img/top-line.jpeg") right 1% top no-repeat;*/
+}
+
+
+.pager {
+    margin-bottom: 124px;
 }
 
 .page-title {
     font-size: 72px;
-    line-height: 98px;
-    margin-bottom: 25px;
-
+    line-height: 1;
+    /*margin-bottom: 25px;*/
+    font-weight: bold;
 }
 
 .breadcrumbs__list {
     display: flex;
     align-items: center;
-
+    margin-bottom: 27.5px;
 }
 
 .breadcrumbs__item {
     display: flex;
     align-items: center;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    text-decoration: none;
+
 }
 
 .breadcrumbs__link {
@@ -105,7 +125,7 @@ padding: 95px 0;
 
 .service {
     display: flex;
-    padding: 50px 56px;
+    padding: 50px 20px;
     text-decoration: none;
 }
 
@@ -113,7 +133,6 @@ padding: 95px 0;
     width: 460px;
     height: 333px;
     margin-right: 7%;
-
 }
 
 .service__content {
@@ -155,16 +174,24 @@ padding: 95px 0;
 }
 
 .partners__item {
+margin-left: 20px;
+}
+
+.partners__link {
     text-decoration: none;
     display: flex;
     width: 270px;
     height: 100px;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
+    filter: grayscale(100%);
 }
 
-.partners__item:nth-child(4n+1) {
+.partners__link:hover {
+    filter: grayscale(0%)
+}
+
+.partners__item:nth-child(4n + 1) {
 margin-left: 0px;
 }
 

@@ -4,7 +4,7 @@ body, html {
     font-size: 16px;
     line-height: 1,42;
     background: #17191c;
-    -webkit-font-smoothing: “antialiased;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smothing: grayscale;
 }
 
@@ -54,8 +54,8 @@ h6{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
-    padding: 18px; 27px;
-    border-radius:35px;
+    padding: 18px 55px;
+    border-radius: 35px;
 }
 
 .button:hover {

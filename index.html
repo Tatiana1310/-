@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "https: //fonts.googleapis.com/css2? family = Open + Sans: wght @ 400; 700 & display = swap "rel =" stylesheet ">
     <link rel="stylesheet" href="css/main.css" >
     <title>Document</title>
 </head>
@@ -12,23 +11,27 @@
 
     <div class="wrapper wrapper--main"> 
       <header class="header container">
-              <a href="/" class="logo">
-                    <img src="img/logo.png" alt="" class="logo__pic">
+              <a href="index.html" class="logo">
+                    <img src="./img/logo.png" alt="" class="logo__pic">
               </a>
               <nav class="menu">
                   <ul class="menu__list">
                       <li class="menu__item">
-                          <a href="" class="menu__link">Главная</a>
+                          <a href="index.html" class="menu__link">Главная</a>
                           <li class="menu__item">
-                            <a href="" class="menu__link">Услуги</a>
+                            <a href="services.html" class="menu__link">Услуги</a>
                             <li class="menu__item">
-                                <a href="" class="menu__link">Отзывы</a>
+                                <a href="reviews.html" class="menu__link">Отзывы</a>
                       </li>
                   </ul>
                 </nav>
               <adress class="contacts">
                 <a href="tel:+88007003030" class="contacts__phone">8 800 700 30 30</a>
-                <div class="contacts__hours">График работы</div>
+                <div class="contacts__dropdown">График работы</div>
+                <div class="dropdown__menu">
+                    <h4 class="dropdown__menu:chart">пн-вс: 09:00 - 20:00</h4>
+                    <a href="#" class="dropdown__menu:chart-br">Обед: 14:00 - 14:30</a>
+                </div>
             </adress>
           </header>
           <main class="main">
@@ -43,7 +46,7 @@
                 </div>
              </div>
               </section>
-              <section class="services">
+              <section class="services container">
                   <ul class="services__list">
                       <li class="services__item">
                           <div class="services__img">
@@ -73,7 +76,7 @@
                             <div class="services__btn">
                                 <a href="#" class="services__link button">Подробнее</a>
                               </div>
-                    </li>
+                            </li>
                     <li class="services__item">
                         <div class="services__img">
                             <img src="img/film.png" alt="" class="services__img-pic">
@@ -118,7 +121,7 @@
 
                   </ul>
                   <div class="pager">
-                      <div class="pager__display">Страница 1 из 7 </div>  
+                      <div class="pager__display">Страница 1 из 7</div>  
                       <ul class="pager__list">
                          <li class="pager__item pager__item--active"> <a href="#" class="pager__link">1</a> </li>
                          <li class="pager__item"> <a href="#" class="pager__link">2</a> </li>
@@ -140,7 +143,9 @@
                       <div class="about__desc-text"> 
                           <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
                             несколько абзацев более менее осмысленного текста.</p> </div>
-                          <button class="about_btn">Подробнее</button>
+                            <div class="services__btn">
+                                <a href="#" class="services__link button">Подробнее</a>
+                              </div>
                         </div> 
                     </div>
                   </div>
@@ -149,49 +154,47 @@
           <footer class="footer-container">
               <div class="container">
               <div class="footer">
-            <a href="/" class="logo">
+            <a href="index.html" class="logo">
                 <img src="img/logo.png" alt="" class="logo__pic">
             </a>
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="" class="menu__link">Главная</a>
+                        <a href="index.html" class="menu__link">Главная</a>
                         <li class="menu__item">
-                          <a href="" class="menu__link">Услуги</a>
+                          <a href="services.html" class="menu__link">Услуги</a>
                           <li class="menu__item">
-                              <a href="" class="menu__link">Отзывы</a>
+                             <a href="reviews.html" class="menu__link">Отзывы</a>
                     </li>
-            </ul> 
-          </nav>
-          <ul class="socials">
+                </ul> 
+            </nav>
+            <ul class="socials">
                   <li class="socials__item" socials___item--icon-tg>
                       <a href="" class="socials__link">
-                          <img src="./img/t.png" alt="" class="socials__pic">
+                          <img src="img/t.png" alt="" class="socials__link">
                       </a>
                     </li>
                     <li class="socials__item" socials___item--icon-vk>
                       <a href="" class="socials__link"> 
-                        <img src="./img/vk.png" alt="" class="socials__pic">
+                        <img src="img/vk.png" alt="" class="socials__link">
                     </a>
                 </li>
                 <li class="socials__item" socials___item--icon-f>
                     <a href="" class="socials__link">
-                        <img src="./img/f.png" alt="" class="socials__pic">
+                        <img src="img/f.png" alt="" class="socials__link">
                     </a>
                 </li>
                 <li class="socials__item" socials___item--icon-in>
                     <a href="" class="socials__link">
-                        <img src="./img/in.png" alt="" class="socials__pic">
+                        <img src="img/in.png" alt="" class="socials__link">
                     </a>
                 </li>
-                  </li>
-              </ul>
           </ul>
           <adress class="contacts">
               <div class="contacts-desc">Бесплатный звонок по России</div>
               <a href="tel:+88007003030" class="contacts__phone">8 800 700 30 30</a>
           </adress>
-        </div>
+              </div>
               </div>
           </footer>
           </div>    

@@ -1,0 +1,222 @@
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 76px;
+}
+
+.page-title {
+    text-transform: uppercase;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #f4f5f5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.reviews__item reviews{
+    margin-bottom: 20px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e77a4;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+}
+
+.review__user::after {
+    content: url("../../img/vk\ blue.png");
+    height: 32px;
+    padding: 7px;
+}
+
+.review__tags {
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: #f2d4c9;;
+    
+
+}
+
+.tag--bg--green {
+    background: #e7e7e7;
+} 
+
+.review__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #202020;
+    margin-bottom: 13px;
+}
+
+.review__content-text {
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 47px;
+}
+
+.review__date {
+    font-size: 14px;
+    color: #1a1b1c;
+    font-weight: bold;
+}
+
+
+.separator {
+    background: url("../../img/party.png") right no-repeat;
+   min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-section--bg-grey {
+    background: #e5e5e5;
+}
+
+.separator__content {
+    max-width: 50%; 
+    
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 4px;
+    border: none;
+    background: #ffffff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #000;
+   outline: none;
+}
+
+.form__input:focus {
+    border: 1px solid black;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textarea {
+    height: 235px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 33px;
+}
+
+.form__controls-title {
+    width: 34%;
+    padding-left: 0px;
+    margin-right: 70px;
+    color: black;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 13px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #ffffff;
+
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 35px;
+    padding: 18px 40px;
+}
+
+.form__btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 96px;
+
+}
+
+.btn {
+    background-color: #ff3d00;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn--reset {
+    background: #8e8e8e;
+}
+
+.btn--reset:hover  {
+    background: #f2d4c9;
+}
+
+.btn:hover {
+    background: #f2d4c9;; 
+}
+
+.form__btn {
+    margin-right: 13px;
+}
+
+.form__btn:last-child {
+    margin-right: 0px;
+}

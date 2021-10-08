@@ -1,4 +1,4 @@
-.footer{
+.footer {
     height: 146px;
     position: relative;
     display: flex;
@@ -8,13 +8,19 @@
 .socials__item {
     display: inline-block;
     margin-right: 10px;
+    vertical-align: middle;
 }
+
+.socials___item--icon-tg .socials__link {
+    background-image: url('../../img/t.png');
+}
+
 
 .socials___item--icon-tg .socials__link:hover {
     background-image: url('../../img/t1.png');
 }
 
-.socials___item--icon-vk .socials__link:hover {
+.socials___item--icon-vk.socials__link:hover {
     background-image: url('../../img/vk1.png');
 }
 
@@ -40,6 +46,7 @@
     display: block;
     width: 36px;
     height: 36px;
+    text-decoration: none;
 }
 
 .menu__list {

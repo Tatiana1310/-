@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;  
+    margin-bottom: 156px;
 }
 
 .menu__list {
@@ -35,6 +36,45 @@
     font-size: 26px;
 }
 
+.contacts__dropdown {
+    font-size: 13px;
+    color: #FF3D00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropdown__menu {
+   /*display: inline-box;*/
+    position: absolute;
+    background-color: #fff; 
+    padding: 10px 15px;
+    border-radius: 4px;
+    opacity:0;
+    transition: opacity .8s;
+    color: #1e1f20;
+    margin-top: 5px;
+    
+}
+   
+
+.contacts__dropdown:hover ~ .dropdown__menu {
+    display: block;
+    opacity: 1;  
+}
+
+/*.dropdown__menu:chart:hover, .dropdown__menu:chart:focus {
+    background-color: #fff;  
+    display: block;
+    opacity: 1;
+} */
+
+.dropdown__menu:chart {
+    display: block;
+    content: "";
+    position: absolute;
+
+}
+
 .contacts__hours {
     font-size: 13px;
     color: #FF3D00;
@@ -48,7 +88,7 @@
     margin-bottom: 250px;
 }
 
-.hero__title{
+.hero__title {
     font-size: 72px;
     font-weight: 800;
     text-transform: uppercase;
@@ -58,7 +98,6 @@
 .hero__subtitle {
     font-size: 18px;
     margin-bottom: 57px;
-
 }
 
 
